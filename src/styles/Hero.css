@@ -1,0 +1,117 @@
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(45deg, var(--blue-dark), var(--blue));
+    box-sizing: border-box;
+    padding: 0 10%;
+    position: relative;
+    overflow-x: none;
+}
+
+.hero-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 30px 0;
+}
+.hero-header > img {
+    min-width: 140px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.hero-nav-links {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-white);
+    font-family: roboto-bold;
+    font-size: .8rem;
+    padding-bottom: 3px;
+}
+.nav-link:hover {
+    transition: all ease-in-out .8s ;
+    border-bottom: 2px solid var(--orange);
+}
+
+.nav-link-cta {
+    text-decoration: none;
+    color: var(--text-white);
+    font-family: roboto-bold;
+    font-size: .8rem;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border-radius: 2px;
+    background: var(--orange);
+    opacity: .85;
+}
+.nav-link-cta:hover {
+    transition: all ease-in-out .8s;
+    opacity: 1;
+}
+
+.nav-link-active {
+    border-bottom: 2px solid var(--orange);
+}
+
+.rocket {
+    position: absolute;
+    bottom: -90px;
+    left: 3%;
+    height: 85%;
+    width: 60%;
+}
+
+.cta {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    height: auto;
+    width: 30%;
+}
+.cta-text > span {
+    font-family: dancing-bold;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    color: var(--text-white);
+}
+.cta-text {
+    font-family: roboto-black;
+    letter-spacing: 2px;
+    font-size: 2.8rem;
+    color: var(--text-white);
+}
+
+.cta-link {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    text-decoration: none;
+    color: var(--text-white);
+    opacity: .85;
+    font-family: roboto-bold;
+    font-size: .9rem;
+}
+.cta-asset {
+    margin-left: -25px;
+    z-index: -2;
+}
+
+.cta-link:hover  .cta-asset {
+    transition: all ease-in-out .8s;
+    transform: rotate(360deg);
+}
+
