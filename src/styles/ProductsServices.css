@@ -1,0 +1,192 @@
+.products-services {
+    width: 100vw;
+    height: auto;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.products-services-header {
+    color: var(--blue-01);
+    top: 100px;
+}
+.products-services-sub-header {
+    color: var(--blue-dark);
+}
+
+.products-services-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .products-services {
+        padding: 70px 10%;
+    }
+
+    .products-services-sub-header {
+        font-size: 4vw !important;
+    }
+    .products-services-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 200px;
+    }
+    .service-card {
+        height: 100px;
+    }
+    .service-desc {
+        font-size: 3vw !important;
+        top: 0;
+        left: 7%;
+        display: none;
+        visibility: hidden;
+        width: 90% !important;
+        height: 100% !important;
+    }
+    .service-card:hover  .service-pip {
+        transition: all ease-in-out .3s;
+        width: 115%;
+        height: 380px;
+    }
+    .service-card:hover  .service-desc {
+        transition: all ease-in-out .3s;
+        display: grid !important;
+        visibility: visible;
+        place-items: center;
+    }
+    .service-details {
+        font-size: 4vw !important;
+    }
+    .service-icon {
+        font-size: 5vw !important;
+    }
+    .services-cta-link {
+        font-size: 4vw !important;
+    } 
+    .services-cta-asset {
+        width: 10vw !important;
+        margin-left: -5vw !important;
+    }
+    .services-cta-tagline {
+        font-size: 4vw !important;
+    }
+}
+
+.service-card {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1rem;
+    background: linear-gradient(to bottom, var(--white-dirty-01) 5%, var(--blue-01) 100%);
+    backdrop-filter: blur(2.5px);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transition: all ease-in-out .3s;
+    box-shadow: var(--blue-deep-025) 0px 13px 27px -5px, var(--blue-deep-025) 0px 8px 16px -8px;
+}
+.service-card:hover  .service-pip {
+    transition: all ease-in-out .3s;
+    scale: 4.5;
+}
+.service-card:hover * .service-icon {
+   display: none;
+   visibility: hidden;
+}
+.service-card:hover  .service-desc {
+    transition: all ease-in-out .3s;
+   display: inline-block;
+   visibility: visible;
+}
+
+.service-pip {
+    position: absolute;
+    top: -4rem;
+    right: -4rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--accent-yellow);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    opacity: .9;
+}
+.service-icon {
+    margin-bottom: -3.5rem;
+    margin-left: -2.5rem;
+    font-size: 2vw;
+    color: var(--blue-dark);
+}
+.service-details {
+    color: var(--blue-deep);
+    font-family: montserrat-bold;
+    font-size: 2vw;
+}
+.service-desc {
+    color: var(--blue-dark);
+    font-family: montserrat-bold;
+    font-size: 1vw;
+    text-justify: inter-word;
+    position: absolute;
+    bottom: 1rem;
+    right: .5rem;
+    display: none;
+    visibility: hidden;
+    width: 60%;
+    height: 50%;
+    overflow-y: scroll;
+}
+
+.services-cta {
+    height: 100px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.services-cta-link {
+    text-decoration: none;
+    color: var(--text-black);
+    font-family: roboto-bold;
+    font-size: 1.5vw;
+    z-index: 10;
+    border: none;
+    outline: none;
+    display: flex;
+   align-items: center;
+} 
+.services-cta-asset {
+    margin-left: -2vw;
+    z-index: -2;
+    width: 3.5vw;
+    animation: 4s infinite cubic-bezier(0.075, 0.82, 0.165, 1) pulse;
+    animation-delay: 4s;
+    opacity: .5;
+}
+
+.services-cta-link:hover  .services-cta-asset {
+    transition: all ease-in-out .8s;
+    transform: rotate(360deg);
+}
+
+.services-cta-tagline {
+    color: var(--text-black);
+    font-family: montserrat-regular;
+    font-size: 1.5vw;
+}

@@ -56,7 +56,7 @@ function About() {
               visible: { opacity: 1, y: 0 },
               hidden: { opacity: 0, y: 50 },
             }}
-            transition={{ ease: "easeIn", duration: 3 }}
+            transition={{ ease: "easeIn", duration: 3    }}
             className="about-body"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et

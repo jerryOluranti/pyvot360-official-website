@@ -3,12 +3,15 @@
   --text-black: #030303;
 
   --white: #FFFFFF;
-  --white-dirty: #F4F4F4;
+  --white-dirty: rgb(244, 244, 244);
+  --white-dirty-01: rgba(244, 244, 244, 0.5);
   --black: #030303;
 
-  --blue: #0B6AB0;
+  --blue: rgb(11, 106, 176);
   --blue-dark: #084387;
-  --blue-deep: #11182C;
+  --blue-deep: rgb(17, 24, 44);
+  --blue-deep-025: rgba(17, 24, 44, 0.25);
+  --blue-01: rgba(11, 106, 176, 0.1);
 
   --orange: rgb(243, 107, 28);
   --orange-dark: rgb(206, 73, 18);
@@ -26,13 +29,16 @@
   top: 50px;
   left: 4%;
   font-size: 12vw;
-  font-family: montserrat-black;
+  font-family: montserrat-bold;
 }
 @media screen and (max-width: 768px) {
     .about-header {
         top: 35px;
         font-size: 15vw;
         left: 1%;
+    }
+    .section-header {
+        font-family: montserrat-black;
     }
 }
 
