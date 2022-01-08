@@ -5,7 +5,8 @@
   --white: #FFFFFF;
   --white-dirty: rgb(244, 244, 244);
   --white-dirty-01: rgba(244, 244, 244, 0.5);
-  --black: #030303;
+  --black: rgb(3, 3, 3);
+  --black-02: rgba(3, 3, 3, 0.2);
 
   --blue: rgb(11, 106, 176);
   --blue-dark: #084387;

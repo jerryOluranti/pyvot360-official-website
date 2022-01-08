@@ -1,0 +1,129 @@
+.feedbacks {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(10deg, var(--orange-dark), var(--orange));
+    padding: 100px 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedbacks-header {
+    color: var(--black-02);
+}
+.feedbacks-sub-header {
+    color: var(--text-white);
+    z-index: 3;
+    margin-top: 40px;
+}
+
+.feedbacks-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.feedback-image {
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .feedbacks {
+        padding: 40px 5%;
+        height: 70vh;
+    }
+    .feedbacks-container {
+        padding: 20px 5% !important;
+    }
+    .feedback-image {
+       display: none;
+       visibility: hidden;
+    }
+    .feedbacks-sub-header {
+       font-size: 2vh !important;
+    }
+    .feedbacks-container {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .feedback-content {
+        width: 100% !important;
+        padding: 20px 0 !important;
+        justify-content: space-between;
+    }
+    .feedback-message {
+        font-size: 3.5vw !important;
+        height: 35vh;
+    }
+    .feedback-author-name {
+        font-size: 4vw !important;
+    }
+    .feedback-author-position {
+        font-size: 3vw !important;
+    }
+    .feedback-arrows > img {
+        width: 6.5vw !important;
+        margin-top: 20px !important;
+    }
+    .feedback-tagline {
+        font-size: 3vw !important;
+        margin-top: 5px !important;
+    }
+}
+
+.feedback-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    padding: 60px 0 0 0;
+}
+.feedback-message {
+    color: var(--text-white);
+    font-size: 1.3vw;
+    line-height: 1.5;
+    font-family: montserrat-bold;
+    height: 30vh;
+    overflow: hidden;
+    /* width: 50%; */
+}
+.feedback-author-name {
+    color: var(--text-white);
+    font-size: 1.5vw;
+    font-family: roboto-regular;
+    text-transform: uppercase;
+}
+.feedback-author-position {
+    color: var(--text-white);
+    font-size: 1.1vw;
+    font-family: roboto-bold;
+    font-style: italic;
+}
+.feedback-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.feedback-arrows > img {
+    width: 2.5vw;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.feedback-arrows > img:hover {
+    transition: all ease-in-out .2s;
+    opacity: .5;
+}
+.feedback-arrow-right {
+    transform: rotate(180deg);
+}
+.feedback-tagline {
+    color: var(--text-white);
+    font-size: 1.3vw;
+    font-family: montserrat-bold;
+    margin-top: 30px;
+}
