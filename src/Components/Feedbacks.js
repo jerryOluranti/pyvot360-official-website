@@ -5,7 +5,6 @@ import { useInView } from "react-intersection-observer";
 
 import '../styles/Feedbacks.css'
 import Image from '../assets/feedbacks-1.svg'
-import Arrow from '../assets/arrow-white.svg'
 
 function Feedbacks() {
 
@@ -41,8 +40,8 @@ function Feedbacks() {
             animate={controls}
             initial="hidden"
             variants={{
-              visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: -150 },
+              visible: { opacity: 1 },
+              hidden: { opacity: 0},
             }}
             transition={{ ease: "easeIn", duration: 2 }}
             src={Image}
@@ -54,8 +53,8 @@ function Feedbacks() {
             animate={controls}
             initial="hidden"
             variants={{
-              visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: 150 },
+              visible: { opacity: 1},
+              hidden: { opacity: 0},
             }}
             transition={{ ease: "easeIn", duration: 2 }}
             className="feedback-content"
@@ -71,14 +70,12 @@ function Feedbacks() {
               <div className="feedback-author-position">CEO, Company</div>
             </div>
             <div className="feedback-arrows">
-              <img src={Arrow} alt="" className="feedback-arrow-left" />
-              <img src={Arrow} alt="" className="feedback-arrow-right" />
+              <i className="ri-arrow-left-line"></i>
+              <i className="ri-arrow-right-line"></i>
             </div>
           </motion.div>
         </div>
-        <div className="feedback-tagline">
-         { tagline }
-        </div>
+        <div className="feedback-tagline">{tagline}</div>
       </div>
     );
 }

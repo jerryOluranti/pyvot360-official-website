@@ -5,11 +5,13 @@
   --white: #FFFFFF;
   --white-dirty: rgb(244, 244, 244);
   --white-dirty-01: rgba(244, 244, 244, 0.5);
+  --white-04: rgba(255, 255, 255, 0.4);
+  --white-01: rgba(255, 255, 255, 0.1);
   --black: rgb(3, 3, 3);
   --black-02: rgba(3, 3, 3, 0.2);
 
   --blue: rgb(11, 106, 176);
-  --blue-dark: #084387;
+  --blue-dark: rgb(8, 67, 135);
   --blue-deep: rgb(17, 24, 44);
   --blue-deep-025: rgba(17, 24, 44, 0.25);
   --blue-01: rgba(11, 106, 176, 0.1);
@@ -19,7 +21,8 @@
   --orange-05: rgba(206, 73, 18, 0.5);
   --orange-01: rgba(243, 107, 28, 0.1);
 
-  --accent-yellow: #F8D605;
+  --accent-yellow: rgb(248, 214, 5);
+  --accent-yellow-06: rgb(248, 214, 5, .95);
 }
 
 .App {

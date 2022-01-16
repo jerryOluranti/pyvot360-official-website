@@ -16,6 +16,7 @@ function App() {
       <About />
       <ProductsServices />
       <Feedbacks />
+      <OurTeam />
     </div>
   );
 }

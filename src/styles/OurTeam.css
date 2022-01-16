@@ -1,0 +1,195 @@
+.our-team {
+  width: 100%;
+  height: 98vh;
+  box-sizing: border-box;
+  padding: 3% 10%;
+  background-color: var(--blue-deep);
+  position: relative;
+}
+.our-team-header {
+  color: var(--white-04);
+  backdrop-filter: blur(2px);
+  -webkit-text-stroke: .8px var(--white-dirty);
+}
+
+.our-team-sub-header {
+    position: absolute;
+    top: 12%;
+    right: 10%;
+    width: 15%;
+    font-family: montserrat-regular;
+    color: var(--white);
+    text-align: right;
+}
+
+.slide-container {
+    width: 300%;
+    height: 30vh;
+    margin-top: 25%;
+    display: flex;
+    transition: transform 2s ease-in-out;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    z-index: 3;
+}
+.slide-container::-webkit-scrollbar {
+    display: none;
+}
+
+.worker {
+    height: 100%;
+    display: flex;
+    background-color: var(--white-01);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 39%;
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .our-team {
+        padding: 3% 5%;
+        height: 65vh;
+    }
+    .slide-container {
+        width: 600%;
+        height: 22vh;
+        margin-top: 50%;
+    }
+    .worker {
+        width: 105% !important;
+    }
+    .our-team-sub-header {
+        top: 10%;
+        right: 5%;
+        width: 17%;
+    }
+    .worker-name {
+        font-size: 5vw !important;
+    }
+    .worker-position {
+        font-size: 3.5vw !important;
+    }
+    .triangle-blue {
+        top: 20% !important;
+        left: 10% !important;
+        width: 60vw !important;
+    }
+    .triangle-yellow {
+        top: 60% !important;
+        right: 10% !important;
+        width: 15vw !important;
+    }
+
+    .controls > div {
+        width: 8vw !important;
+        height: 8vw !important;
+        font-size: 7vw !important;
+    }
+    .worker-contact > a {
+        font-size: 6vw !important;
+    }
+}
+
+.worker-image {
+    width: 50%;
+}
+.worker-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.worker-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2%;
+    height: 100%;
+    align-items: flex-start;
+    position: relative;
+}
+
+.worker-name {
+    font-family: dancing-bold;
+    font-size: 2.5vw;
+    color: var(--text-white);
+    text-transform: titlecase;
+}
+.worker-position {
+    font-family: montserrat-bold;
+    font-size: 1.3vw;
+    color: var(--text-white);
+    text-transform: uppercase;
+}
+
+.worker:hover .worker-contact {
+    transition: all ease-in-out .2s;
+    top: 0;
+}
+
+.worker-contact {
+    position: absolute;
+    width: 104%;
+    height: 100%;
+    margin-left: -4%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--accent-yellow-06);
+    top: 100%;
+}
+
+.worker-contact > a {
+    font-size: 2.5vw;
+    color: var(--blue-dark);
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+.worker-contact > a:hover {
+    transition: all ease-in-out .2s;
+    background-color: var(--white-dirty);
+}
+.controls {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.controls > div {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: var(--text-white);
+    color: var(--blue-deep);
+    font-size: 3.5vw;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+.controls > div:hover {
+    transition: all ease-in-out .2s;
+    background-color: var(--accent-yellow-06);
+}
+.triangle-blue {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: rotate(-70deg);
+    width: 28vw;
+    /* z-index: -1; */
+}
+.triangle-yellow {
+    position: absolute;
+    top: 36%;
+    right: 12%;
+    /* z-index: -1; */
+}
