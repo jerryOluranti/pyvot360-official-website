@@ -41,7 +41,7 @@ function Feedbacks() {
             initial="hidden"
             variants={{
               visible: { opacity: 1 },
-              hidden: { opacity: 0},
+              hidden: { opacity: 0 },
             }}
             transition={{ ease: "easeIn", duration: 2 }}
             src={Image}
@@ -53,21 +53,24 @@ function Feedbacks() {
             animate={controls}
             initial="hidden"
             variants={{
-              visible: { opacity: 1},
-              hidden: { opacity: 0},
+              visible: { opacity: 1 },
+              hidden: { opacity: 0 },
             }}
             transition={{ ease: "easeIn", duration: 2 }}
             className="feedback-content"
           >
             <div className="feedback-message">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique nostrum minima ducimus. Quas atque laborum veniam fugit
-              quis porro veritatis, iste eveniet libero ratione, neque
-              architecto magnam. Officiis, nostrum et?
+              The company developed and hosted an institution based academic
+              journal website.
+                The site was unique, simple and user friendly, in its simplicity
+                lies its uniqueness.
+              I will surely recommend your company to others.
             </div>
             <div className="feedback-author">
-              <div className="feedback-author-name">John Doe</div>
-              <div className="feedback-author-position">CEO, Company</div>
+              <div className="feedback-author-name">
+                Dr Popoola Moshood Abiola
+              </div>
+              <div className="feedback-author-position">HOD, FCAH&PTIB</div>
             </div>
             <div className="feedback-arrows">
               <i className="ri-arrow-left-line"></i>

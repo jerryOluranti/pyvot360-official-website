@@ -27,6 +27,7 @@
 
 .App {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .section-header {
   position: absolute;

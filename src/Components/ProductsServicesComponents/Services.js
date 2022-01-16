@@ -2,7 +2,7 @@ import React from 'react'
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-function Services() {
+function Services({service}) {
     
     const controls = useAnimation();
     const [ref, inView] = useInView();
@@ -30,11 +30,9 @@ function Services() {
         <div className="service-pip">
           <i className="service-icon ri-menu-fill"></i>
         </div>
-        <div className="service-details">Web Development</div>
+        <div className="service-details">{service.title}</div>
         <div className="service-desc">
-          lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Hic, illo earum! Nihil,
-          esse tempore facilis corrupti.
+          {service.description}
         </div>
       </motion.div>
     );

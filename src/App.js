@@ -1,6 +1,6 @@
 import './App.css';
 
-import NavBar from './components/NavBar';
+// import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import About from './components/About';
 import ProductsServices from './components/ProductsServices';
@@ -17,6 +17,8 @@ function App() {
       <ProductsServices />
       <Feedbacks />
       <OurTeam />
+      <Contact />
+      <Footer />
     </div>
   );
 }

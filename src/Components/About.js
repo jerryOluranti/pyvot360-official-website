@@ -19,7 +19,7 @@ function About() {
      }, [inView, controls])
 
     return (
-      <div className="about">
+      <div className="about" id="about">
         <motion.img
           ref={ref}
           animate={controls}
@@ -56,16 +56,15 @@ function About() {
               visible: { opacity: 1, y: 0 },
               hidden: { opacity: 0, y: 50 },
             }}
-            transition={{ ease: "easeIn", duration: 3    }}
+            transition={{ ease: "easeIn", duration: 3 }}
             className="about-body"
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-            expedita dolores sint minus esse. Laudantium sint cum vel quos
-            beatae in libero doloremque natus, minus unde sapiente delectus
-            nemo? Quaerat! Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit. Possimus sed, dignissimos, deserunt eaque eos porro cumque
-            soluta quae rem quidem dicta sapiente, odio quas reprehenderit dolor
-            maxime eligendi est expedita?
+            A company offering tech services and tech products to all and
+            sundry. We are passionate about technology and we are committed to
+            providing the best of services and products to all our
+            clients. Founded in 2020, our team of qualified and experienced
+            professionals have satisfied our customers with the best of services
+            and products. Our uniqueness is in our ability to put our clients' needs above all; at all times.
           </motion.p>
         </div>
       </div>
