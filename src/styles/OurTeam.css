@@ -125,6 +125,8 @@
     font-size: 1vw;
     color: var(--text-white);
     text-transform: uppercase;
+    border-top: 1px solid var(--text-white);
+    padding-top: 5px;
 }
 
 .worker:hover .worker-contact {

@@ -11,7 +11,7 @@ function Contact() {
         </div>
         <div className="socials-container">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/pyvot.360"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ function Contact() {
             <i className="ri-linkedin-fill"></i>
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://twitter.com/pyvot360"
             target="_blank"
             rel="noopener noreferrer"
           >

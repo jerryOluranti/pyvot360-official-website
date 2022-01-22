@@ -1,5 +1,4 @@
 import React from 'react'
-import writeOn from 'write-on-node'
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -10,16 +9,6 @@ function Feedbacks() {
 
     const controls = useAnimation();
     const [ref, inView] = useInView();
-    const [ tagline, setTagline ] = React.useState('');
-
-    React.useEffect(() => {
-      writeOn({
-        setstate: setTagline,
-        text: 'Many people are happy with our services, lets make you happy too!',
-        delayTime: 0.2,
-        waitTime: 3
-      });
-    }, [])
 
     React.useEffect(() => {
       if (inView) {
@@ -78,7 +67,7 @@ function Feedbacks() {
             </div>
           </motion.div>
         </div>
-        <div className="feedback-tagline">{tagline}</div>
+        <div className="feedback-tagline">Many people are happy with our services, lets make you happy too!</div>
       </div>
     );
 }

@@ -145,7 +145,7 @@
 .feedback-tagline {
     color: var(--text-black);
     font-size: 1.3vw;
-    font-family: montserrat-bold;
-    margin-top: 10vh;
+    font-family: montserrat-regular;
+    margin-top: 5vh;
     text-align: center;
 }

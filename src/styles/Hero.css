@@ -102,8 +102,6 @@
         color: var(--white);
         font-size: 1.5rem;
         cursor: pointer;
-        position: fixed;
-        right: 5%;
         z-index: 14;
     }
     .burger:hover {
@@ -156,6 +154,7 @@
     width: 70vw;
     margin-right: -3%;
     margin-bottom: -3vw;
+    z-index: 2;
 }
 @media (max-width: 600px) {
     .hero-body {
@@ -192,6 +191,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    z-index: 4;
     /* flex-grow: 1; */
 }
 .span {
