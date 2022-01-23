@@ -1,6 +1,6 @@
 .products-services {
     width: 100vw;
-    height: auto;
+    /* min-height: 250vh; */
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -153,8 +153,25 @@
     overflow-y: scroll;
 }
 
+.services-pitch {
+    width: 100%;
+    height: auto;
+}
+
+h3, li {
+    font-family: montserrat-regular;
+}
+
+p, li {
+    text-align: justify;
+}
+
+li {
+    line-height: 1.5;
+}
+
 .services-cta {
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
     display: grid;
     place-items: center;
@@ -170,6 +187,7 @@
     outline: none;
     display: flex;
    align-items: center;
+   margin-top: 50px;
 } 
 .services-cta-asset {
     margin-left: -2vw;
