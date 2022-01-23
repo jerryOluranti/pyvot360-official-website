@@ -36,7 +36,7 @@ function OurTeam() {
         ig: "https://www.instagram.com/Call_me_wunmi",
       },
       {
-        name: "Olaoye Seyi",
+        name: "Olaoye Favour",
         position: "Web Developer",
         image:
           "https://drive.google.com/uc?export=download&id=1ApBPwKy7q-p0IWLDFmDsIM10zVw26OxV",

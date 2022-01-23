@@ -37,7 +37,7 @@
         font-size: 4vw;
     }
     .about-content p {
-        font-size: 3vw;
+        font-size: 3.5vw !important;
         height: 35vh;
     }
 }

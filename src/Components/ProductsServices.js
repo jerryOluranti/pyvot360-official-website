@@ -10,8 +10,8 @@ function ProductsServices() {
 
   const services = [
     {
-      title: 'SaaS',
-      description: 'We provide a full range of SaaS solutions to help you manage your business.'
+      title: 'Software as a Service',
+      description: 'We provide a full range of SaaS solutions to help you manage and grow your brand/business.'
     },
     {
       title: 'Web Development',
