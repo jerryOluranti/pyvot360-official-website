@@ -27,16 +27,15 @@
 .hero-header > img {
     min-width: 160px;
     cursor: pointer;
-    margin-top: 22px;
+    /* margin-top: 3.5rem; */
+    /* display: inline-block; */
+    /* padding: 1rem; */
 }
 
 .hero-nav-links {
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-grow: .3;
 }
 .burger {
     display: none;
@@ -49,12 +48,12 @@
     .active {
         display: flex !important;
         visibility: visible !important;
-        animation: 3s  cubic-bezier(0.075, 0.82, 0.165, 1) slideIn;
+        animation: 1.5s  cubic-bezier(0.075, 0.82, 0.165, 1) slideIn;
     }
     .out {
         display: flex !important;
         visibility: visible !important;
-        animation: 3s cubic-bezier(0.075, 0.82, 0.165, 1) slideOut;
+        animation: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) slideOut;
     }
     .hidden {
         display: none;
@@ -76,6 +75,15 @@
         visibility: hidden;
         display: none;
 
+    }
+    ul {
+        flex-direction: column;
+        max-height: 40vh;
+        width: 90%;
+    }
+    li {
+        width: 100%;
+        /* margin-bottom: 1rem; */
     }
     .nav-link {
         width: 75%;
@@ -113,12 +121,26 @@
     }
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-grow: .3;
+    height: 100%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
 .nav-link {
     text-decoration: none;
     color: var(--text-white);
     font-family: roboto-bold;
     font-size: 1.2vw;
-    padding: 3px;
+    padding: 0 1rem;
 }
 .nav-link:hover {
     transition: all ease-in-out .2s ;

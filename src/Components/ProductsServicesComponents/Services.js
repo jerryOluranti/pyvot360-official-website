@@ -24,7 +24,7 @@ function Services({service}) {
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 25 },
         }}
-        transition={{ ease: "easeIn", duration: 1 }}
+        transition={{ ease: "easeIn", duration: .3 }}
         className="service-card"
       >
         <div className="service-pip">

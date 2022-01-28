@@ -32,7 +32,7 @@ function Feedbacks() {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            transition={{ ease: "easeIn", duration: 2 }}
+            transition={{ ease: "easeIn", duration: .5 }}
             src={Image}
             alt="feedback"
             className="feedback-image"
@@ -45,7 +45,7 @@ function Feedbacks() {
               visible: { opacity: 1 },
               hidden: { opacity: 0 },
             }}
-            transition={{ ease: "easeIn", duration: 2 }}
+            transition={{ ease: "easeIn", duration: .5 }}
             className="feedback-content"
           >
             <div className="feedback-message">

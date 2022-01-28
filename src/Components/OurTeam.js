@@ -13,22 +13,22 @@ function OurTeam() {
 
     const workers = [
       {
-        name: "Faluyi Jeremiah",
+        name: "Jeremiah Faluyi",
         position: "CEO",
         image:
-          "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-standing-with-his-arms-crossed-in-an-picture-id1314901662?b=1&k=20&m=1314901662&s=170667a&w=0&h=wHWRbn7-nuv4qcdBlI2tDsn7TVNzxkhwMl0WYrC9dlU=",
+          "https://drive.google.com/uc?export=download&id=1GF615xS0pbWEv3DlIFqcfLpCGaE_FY-_",
         twitter: "https://twitter.com/_oluranti",
         in: "https://www.linkedin.com/in/jeremiah-faluyi-009b85206",
       },
       {
-        name: "Owoade Anuoluwapo",
+        name: "Anuoluwapo Owoade",
         position: "CTO",
         image:
           "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-standing-with-his-arms-crossed-in-an-picture-id1314901662?b=1&k=20&m=1314901662&s=170667a&w=0&h=wHWRbn7-nuv4qcdBlI2tDsn7TVNzxkhwMl0WYrC9dlU=",
         twitter: "https://twitter.com/_favourolaoye",
       },
       {
-        name: "Osho Adewunmi",
+        name: "Adewunmi Osho",
         position: "PR & Social Media Manager",
         image:
           "https://drive.google.com/uc?export=download&id=19XkfkuZpEfA2Mafx__fk_Pp4-wuzvP4q",
@@ -36,36 +36,36 @@ function OurTeam() {
         ig: "https://www.instagram.com/Call_me_wunmi",
       },
       {
-        name: "Olaoye Favour",
+        name: "Favour Olaoye",
         position: "Web Developer",
         image:
           "https://drive.google.com/uc?export=download&id=1ApBPwKy7q-p0IWLDFmDsIM10zVw26OxV",
         twitter: "https://twitter.com/_favourolaoye",
       },
       {
-        name: "Oladapo Miracle",
+        name: "Miracle Oladapo",
         position: "Lead Developer",
         image:
           "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-standing-with-his-arms-crossed-in-an-picture-id1314901662?b=1&k=20&m=1314901662&s=170667a&w=0&h=wHWRbn7-nuv4qcdBlI2tDsn7TVNzxkhwMl0WYrC9dlU=",
         twitter: "https://twitter.com/miracle1oladapo",
-        ig: "https://www.instagram.com/Mabuild.dev"
+        ig: "https://www.instagram.com/Mabuild.dev",
       },
       {
-        name: "Adeoye Prince",
+        name: "Prince Adeoye",
         position: "Frontend Developer & UI/UX Designer",
         image:
           "https://drive.google.com/uc?export=download&id=1AORx2nyT8lvAYIbkfH9MZl1ZohzdU5Bh",
-        twitter: "https://twitter.com/Adeoyeprince"
+        twitter: "https://twitter.com/Adeoyeprince",
       },
       {
-        name: "Araoye Timothy",
+        name: "Timothy Araoye",
         position: "SEO Expert & Web Developer",
         image:
           "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-standing-with-his-arms-crossed-in-an-picture-id1314901662?b=1&k=20&m=1314901662&s=170667a&w=0&h=wHWRbn7-nuv4qcdBlI2tDsn7TVNzxkhwMl0WYrC9dlU=",
         ig: "https://www.instagram.com/d.tim.ara",
       },
       {
-        name: "Tinuosho Huzain",
+        name: "Huzain Tinuosho",
         position: "Fullstack Developer & Social Media Manager",
         image:
           "https://drive.google.com/uc?export=download&id=19fL2oz91LDNWcG7myBBIHyKr6pCzfmIH",
@@ -73,7 +73,7 @@ function OurTeam() {
         ig: "https://www.instagram.com/Classic_freakster",
       },
       {
-        name: "Adebayo Enoch",
+        name: "Enoch Adebayo",
         position: "Web Developer",
         image:
           "https://drive.google.com/uc?export=download&id=19g6JbNapp5yzKrTcen1yhj1Okdok3v_d",
@@ -81,7 +81,7 @@ function OurTeam() {
         ig: "https://www.instagram.com/",
       },
       {
-        name: "Akintayo Lanre",
+        name: "Lanre Akintayo",
         position: "Mobile & Blockchain Developer",
         image:
           "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-standing-with-his-arms-crossed-in-an-picture-id1314901662?b=1&k=20&m=1314901662&s=170667a&w=0&h=wHWRbn7-nuv4qcdBlI2tDsn7TVNzxkhwMl0WYrC9dlU=",
@@ -89,7 +89,7 @@ function OurTeam() {
         ig: "https://www.instagram.com/",
       },
       {
-        name: "Makinde Mayowa",
+        name: "Mayowa Makinde",
         position: "Web Developer",
         image:
           "https://media.istockphoto.com/photos/portrait-of-a-mature-businessman-standing-with-his-arms-crossed-in-an-picture-id1314901662?b=1&k=20&m=1314901662&s=170667a&w=0&h=wHWRbn7-nuv4qcdBlI2tDsn7TVNzxkhwMl0WYrC9dlU=",
@@ -97,7 +97,7 @@ function OurTeam() {
         ig: "https://www.instagram.com/",
       },
       {
-        name: "Samuel Blessing",
+        name: "Blessing Samuel",
         position: "Web Developer",
         image:
           "https://drive.google.com/uc?export=download&id=1AglEvcxqnxnfVC1PV9lJSjmWaSSxaaD8",

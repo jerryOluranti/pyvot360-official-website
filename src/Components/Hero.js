@@ -2,7 +2,7 @@ import React from "react";
 
 import "../styles/Hero.css";
 import "../styles/rocket-animation.css";
-import LogoSvg from "../assets/logo-white-horizontal.svg";
+import LogoSvg from "../assets/logo-horizontal-white.png";
 import { ReactComponent as Rocket } from "../assets/rocket.svg";
 import CTAAsset from "../assets/triangle-asset-orange.svg";
 
@@ -13,7 +13,7 @@ function Hero() {
 
   return (
     <div className="hero-container" id="home">
-      <div className="hero-header">
+      <header className="hero-header">
         <motion.img
           animate={{ opacity: [0, 1] }}
           transition={{ ease: "easeIn", duration: 0.8 }}
@@ -21,37 +21,50 @@ function Hero() {
           alt=""
           width="17%"
         />
-        <motion.div
+        <motion.nav
           animate={{ opacity: [0, 1] }}
-          transition={{ ease: "easeIn", duration: 1.5 }}
+          transition={{ ease: "easeIn", duration: 0.5 }}
           className={`hero-nav-links ${active}`}
         >
-          <a className="nav-link" href="#home">
-            HOME
-          </a>
-          <a className="nav-link" href="#about">
-            ABOUT
-          </a>
-          <a className="nav-link" href="#p-s">
-            PRODUCTS & SERVICES
-          </a>
-          <a className="nav-link" href="#team">
-            OUR TEAM
-          </a>
-          <a className="nav-link-cta" href="#contact">
-            CONTACT US
-          </a>
-        </motion.div>
+          <ul>
+            <li>
+              <a className="nav-link" href="#home">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="#about">
+                ABOUT
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="#p-s">
+                PRODUCTS & SERVICES
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="#team">
+                OUR TEAM
+              </a>
+            </li>
+            <li>
+              <a className="nav-link-cta" href="#contact">
+                CONTACT US
+              </a>
+            </li>
+          </ul>
+
+        </motion.nav>
         <motion.div
           animate={{ opacity: [0, 1] }}
-          transition={{ ease: "easeIn", duration: 1.5 }}
+          transition={{ ease: "easeIn", duration: 0.5 }}
           className="burger"
           onClick={() => {
             if (active === "" || active === "hidden") {
               setActive("active");
             } else {
               setActive("out");
-              setTimeout(() => setActive("hidden"), 3000);
+              setTimeout(() => setActive("hidden"), 1500);
             }
           }}
         >
@@ -61,11 +74,11 @@ function Hero() {
             <i className="ri-close-fill"></i>
           )}
         </motion.div>
-      </div>
+      </header>
       <div className="hero-body">
         <motion.div
           animate={{ y: [0, -50, -25], opacity: [0, 0.5, 1] }}
-          transition={{ ease: "easeIn", duration: 3 }}
+          transition={{ ease: "easeIn", duration: 1.5 }}
           className="cta"
         >
           <div className="cta-text">

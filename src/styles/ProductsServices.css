@@ -54,7 +54,7 @@
     }
     .service-card:hover  .service-pip {
         transition: all ease-in-out .3s;
-        width: 115%;
+        width: 200%;
         height: 380px;
     }
     .service-card:hover  .service-desc {
@@ -141,7 +141,7 @@
 .service-desc {
     color: var(--blue-dark);
     font-family: montserrat-bold;
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-justify: inter-word;
     position: absolute;
     bottom: 1rem;

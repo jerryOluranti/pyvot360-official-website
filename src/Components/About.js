@@ -28,7 +28,7 @@ function About() {
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: 100 },
           }}
-          transition={{ ease: "easeIn", duration: 2 }}
+          transition={{ ease: "easeIn", duration: .5 }}
           src={Asset}
           alt=""
           className="about-asset"
@@ -43,7 +43,7 @@ function About() {
               visible: { opacity: 1, y: 0 },
               hidden: { opacity: 0, y: 50 },
             }}
-            transition={{ ease: "easeIn", duration: 2 }}
+            transition={{ ease: "easeIn", duration: .5 }}
             className="about-sub-header"
           >
             Who We Are
@@ -56,7 +56,7 @@ function About() {
               visible: { opacity: 1, y: 0 },
               hidden: { opacity: 0, y: 50 },
             }}
-            transition={{ ease: "easeIn", duration: 3 }}
+            transition={{ ease: "easeIn", duration: .5 }}
             className="about-body"
           >
             A company offering tech services and tech products to all and
